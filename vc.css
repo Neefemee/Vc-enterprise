@@ -1,0 +1,65 @@
+body{
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color:black;
+    color: seashell;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.first{
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.second{
+    background-image: url(pattern.jpeg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    position: relative;
+}
+
+.vc{
+    background-color:black;
+    
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.teas{
+    width: 300px;
+    height: 200px;
+    right: auto;
+    padding-bottom: 10px; 
+    align-items: center;
+    overflow-wrap: normal;
+}
+
+.firsttea{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.teas2{
+    width: 200px;
+    padding: 20px;
+}
+
+.toptea{
+    background-image: url(tires.jpg);
+    background-blend-mode: lighten;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: baseline;
+}
